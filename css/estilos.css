@@ -1,0 +1,24 @@
+h1{
+	color:#25ADFF;
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+	border-bottom: 5px solid #25ADFF;
+}
+h2{
+	color:#223893;
+	font-size: 40px;
+	font-family: 'Open Sans', sans-serif;
+}
+h3{
+	color:#D1CF0B;
+	font-family: 'Pacifico', cursive;
+}
+
+ul li{
+	list-style: none;
+	font-family: 'Economica', sans-serif;
+
+}
+p{
+	font-family: 'Sumana', serif;
+}
