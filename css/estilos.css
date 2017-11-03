@@ -1,8 +1,24 @@
-h1{
-	color:#25ADFF;
-	font-size: 25px;
-	font-family: 'Roboto', sans-serif;
-	border-bottom: 5px solid #25ADFF;
+@import url('https://fonts.googleapis.com/css?family=Economica|Open+Sans|Pacifico|Roboto+Condensed|Sumana');
+
+body{
+	background: #E8E1C8;
+}
+
+section{
+	box-sizing: border-box;
+	width: 50%;
+	float: right;;
+	margin-right:10%;
+	background: #fff;
+	padding: 40px;
+}
+
+.subtitulo{
+	color:#56E3DD;
+	font-size: 22px;
+	font-family: 'Roboto Condensed', sans-serif;
+	border-bottom: 5px solid #56E3DD;
+	padding-bottom: 6px;
 }
 h2{
 	color:#223893;
@@ -10,14 +26,15 @@ h2{
 	font-family: 'Open Sans', sans-serif;
 }
 h3{
-	color:#D1CF0B;
-	font-family: 'Pacifico', cursive;
+	color:#FAC60B;
+	font-family:  cursive;
+	font-size: 20px;
 }
 
 ul li{
 	list-style: none;
-	font-family: 'Economica', sans-serif;
-
+	font-family:'Economica', sans-serif;
+	padding: 0;
 }
 p{
 	font-family: 'Sumana', serif;
