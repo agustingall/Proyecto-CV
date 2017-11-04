@@ -1,14 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Hind+Guntur|Economica|Open+Sans|Pacifico|Roboto+Condensed|Sumana');
+@import url('https://fonts.googleapis.com/css?family=Cambo|Oxygen|Montserrat:300|Kalam|Lato:500|Raleway|Open+Sans|Roboto:400i|Alegreya');
 
 body{
-	background: #DEDEDE;
-}
-
-section.perfil{
-
+	background: #E3E3E3;
 }
 
 section{
+	float: left;
+	width: 20%;
+	margin-left: 15%;
+	margin-top: 20px
+}
+
+article{
+	min-width: 600px;
 	padding: 20px;
 	margin-top: 20px;
 	box-sizing: border-box;
@@ -18,39 +22,67 @@ section{
 	background: #fff;
 	padding-left: 30px;
 	padding-right: 30px;
+	border-radius: 2%;
 }
 
 .subtitulo{
 	color:#4ABEBF;
-	font-size: 18px;
-	font-family:'Hind',serif;
+	font-size: 20px;
+	font-family:'Montserrat',serif;
 	border-bottom: 3px solid #4ABEBF;
 	padding-bottom: 3px;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 h1{
 	color:#223893;
 	font-size: 30px;
+<<<<<<< HEAD
 	font-family: helvetica,sans-serif;
+=======
+	font-family: 'Cambo',sans-serif;
+>>>>>>> 69d5735ad793d7f1b90ea289e28e0e8087b78563
 	line-height: 10px;
+	letter-spacing: 2px;
+
+}
+h3.info{
+	margin-top: 0;
+}
+.info{
+	color:#D62828;
+	font-family: 'Kalam' , cursive;
+	font-size: 21px;
+	letter-spacing: 2px;
 	margin-top: 40px;
 }
-h3{
-	color:#40ED1D;
-	font-family:  cursive;
-	font-size: 18px;
+
+ol li{
+	margin-top: 5px;
+	border-radius: 7px;
+	background: #bd813f;
+
 }
 
-ul{
-	margin-top: 5px;
+ul,ol{
+	margin-top: 0;
 	padding: 0;
 }
-ul li{
+ul li,ol li{
 	list-style: none;
-	font-family:'Hind Guntur',sans-serif;
-	border-bottom: red 2px solid;
-	padding-top: 3px;
+	font-family:'Lato',sans-serif;
+	line-height: 30px;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+ul li{
+		border-bottom: red 2px dotted;
 }
 p{
-	font-family: 'Sumana', serif;
+	color: #513C2C;
+	font-family: 'Open sans', serif;
 }
+
+.informacion
+	margin-top: 30px;
+}
+
