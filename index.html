@@ -2,23 +2,23 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>CV</title>
+	<title>CV Online</title>
 	<link rel="stylesheet" href="css/estilos.css">
-
+	<link rel="stylesheet" href="css/unslider.css">
 </head>
 <body>
-	
+	<!-- Decidí marcar el perfil como sección y las secciones del CV en articulos -->
 	<section>
 		<img src="perfil.jpg" alt="Imagen de perfil" width="100%" height="200px">
 		<ol>
-			<li>Presentación</li>
-			<li>Formación</li>
-			<li>Experiencia</li>
-			<li>Portafolio</li>
+			<li><a href="#presentacion">Presentación</a></li>
+			<li><a href="#formacion">Formación</a></li>
+			<li><a href="#experiencia">Experiencia</a></li>
+			<li><a href="#portafolio">Portafolio</a></li>
 		</ol>
 	</section>
-
-	<article>
+	<a name="presentacion"></a>
+	<article name="presentación">
 	<h2 class="subtitulo">Quién soy</h1>
 	<h1>AGUSTÍN GALLEGUILLO</h2>
 	<h3 class="info">Front-End Jr</h3>
@@ -27,14 +27,16 @@
 		<li>EDAD: 17</li>
 		<li>DIRECCIÓN: AV LIBERTADOR 1353 ESTE SANTA LUCÍA, SAN JUAN </li>
 		<li>EMAIL: agustingall@hotmail.com.ar</li>
-		<li>TELEFONO: 4273917</li>
-		<li>SKYPE: </li>
+		<li>TELÉFONO: 4273917</li>
 	</ul>
 	<div class="introduccion">
 	<p>Soy una persona amante de la tecnología y me encantaría poder trabajar en relación a ello para obtener más experiencia en este rubro. </p>
 	<p >Me considero una persona muy responsable a la hora de realizar una tarea, y con una gran capacidad de aprendisaje. </p></div>
 	</article>
+	
+	<!-- Para las tipografias use fuentes para que muestren mi mensaje de forma clara y simple -->
 
+	<a name="formacion"></a>
 	<article>
 		<p class="subtitulo">Formación</p>
 		<p class="info">E.P.E.T Nº 8</p>
@@ -45,19 +47,40 @@
 		<p>
 			Desde los 12 años he estado realizando cursos de diseño web y programación en páginas como: www.youtube.com, codeacademy.com, acamica.com, etc; y también gané conocimiento de libros e infografias. 
 		</p>
+		<p class="info">Nivel de inglés: Intermedio</p>
 	</article>
-	<article>
+	
+	<a name="experiencia"></a>
+	<article >
 		<p class="subtitulo">Experiencia</p>
 		<p class="info">Junior Achievement</p>
 		<p>Estuve en el programa JA en el cual mi escuela creó una micro-empresa. Yo fuí el encargado de hacer la página web.</p>
 		<p class="info">Olimpiadas de Programación</p>
 		<p>Fuí participante de las Olimpiadas de Programación en San Juan, en la cual adquirí mucha experiencia.</p>
 	</article>
-	<article>
+
+	<a name="portafolio"></a>
+	<article id="portafolio">
 		<p class="subtitulo portafolio">Portafolio</p>
-		<p class="link-portafolio"><a href="http://recordarte.esy.es" target="_blank">Recordarte</a></p>
+		<div class="slider">
+			<ul>
+				<li><a href="http://recordarte.esy.es" target="_blank">Recordarte</a></li>
+			</ul>
+		</div>
 	</article>
 	
+	<script src="js/jquery.min.js"></script>
+	<script src="unslider.js"></script>
+	 <script>
+    jQuery(document).ready(function($) {
+      $('.slider').unslider({
+        arrows: false,
+        autoplay: true
+
+      });
+    });
+  </script>
+
 </body>
 
 </html>
