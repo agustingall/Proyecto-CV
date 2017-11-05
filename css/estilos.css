@@ -46,6 +46,14 @@ article#portafolio{
 	margin-bottom: 4%;
 }
 
+article div.slider ul li{
+	border-style: none;
+	color: #E89E0C;
+	font-family: serif;
+	font-size: 25px;
+	font-weight: bold;
+}
+
 h1{
 	color:#223893;
 	font-family: 'Cambo',sans-serif;
@@ -85,24 +93,47 @@ ul li,ol li{
 	line-height: 30px;
 	list-style: none;
 }
+
 ul,ol{
 	margin-top: 0;
 	padding: 0;
 }
-ol li, ol li a{
+
+
+ol a li{
+	transition: all 700ms;
+}
+
+ol a li:hover{
+	background: #54494B;
+	color:#E4FDE1;
+}
+
+ol li, ol li a,ol li .icon-arrow-right2{
 	background:#E4FDE1 ;
-	border-radius: 3px;
+	border-radius: 5px;
 	color: #54494B;
 	font-family: 'Oxygen',sans-serif;
 	margin-top: 5px;
 	padding:2px 0 2px 10px;
 }
 
+ol li .icon-arrow-right2{
+	background: #54494B;
+	color:#E4FDE1;
+}
 
 
 ul li{
 		border-bottom: red 2px dashed;
 }
+
+p{
+	color: #615055;
+	font-family: 'Open sans', serif;
+}
+
+
 
 
 div.introduccion{
@@ -114,15 +145,3 @@ div.introduccion{
 }
 
 
-article div.slider ul li{
-	color: #E89E0C;
-	font-family: serif;
-	font-size: 25px;
-	font-weight: bold;
-	border-style: none;
-}
-
-p{
-	color: #615055;
-	font-family: 'Open sans', serif;
-}
